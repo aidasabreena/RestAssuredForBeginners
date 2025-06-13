@@ -12,7 +12,7 @@ public class GetBookingTest {
     public void getBookingTest(){
         Response response = given().
                 when().
-                get("https://restful-booker.herokuapp.com/booking/5").
+                get("https://restful-booker.herokuapp.com/booking/1").
                 then().
                 assertThat().
                 statusCode(200).
